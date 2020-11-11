@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>자바스크립트</title>
+	<script>
+		function setName(){
+			document.getElementById("name").innerHTML ="홍길동";	
+		}		
+		function deleteName(){
+			document.getElementById("name").innerHTML ="";	
+		}	
+	</script>
+</head>
+<body>
+	<h3>자바스크립트 & ID</h3>
+	<b>이름 : </b><span id="name"></span><br>
+	<span onclick="setName()" style="background-color:tomato;">추가</span>
+	<span onclick="deleteName()" style="background-color:yellow;">삭제</span>
+</body>
+</html>

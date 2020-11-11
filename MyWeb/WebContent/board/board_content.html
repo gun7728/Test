@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판 내용</title>
+</head>
+<body>
+
+                  <!-- header -->
+  <iframe src="http://localhost:9000/MyWeb/header.html"
+        style="width:100%; height:150px; border:none;"></iframe>
+        
+    <h1>게시판 내용</h1>
+    <table border=1>
+      <tr>  <!-- tr : table row // td : table data -->
+        <td>제목</td>
+        <td>HTML 게시판 생성</td>
+      </tr>
+      <tr>
+        <td>내용</td>
+        <td>HTML 게시판 생성을 생성하고 있습니다.<br><br><br></td>
+      </tr>
+      <tr>
+        <td>게시판일자</td>
+        <td>2020-11-11</td>
+      </tr>
+      <tr>
+        <td>조회수</td>
+        <td>1000</td>
+      </tr>
+      <tr>
+        <td colspan="2">  <!-- 열 합치기 -->
+          <a href="board_update.html"><button type="button">수정</button></a>
+          <a href="board_delete.html"><button type="button">삭제</button></a>
+          <a href="board_list.html"><button type="button">리스트</button></a>
+        </td>
+      </tr>
+      
+    </table>
+                        <!-- footer -->
+   <iframe src="http://localhost:9000/MyWeb/footer.html"
+        style="width:100%; height:250px; border:none;"></iframe>
+        
+</body>
+</html>

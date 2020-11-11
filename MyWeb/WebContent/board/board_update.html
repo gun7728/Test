@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>게시판 수정</title>
+</head>
+<body>
+                  <!-- header -->
+  <iframe src="http://localhost:9000/MyWeb/header.html"
+        style="width:100%; height:150px; border:none;"></iframe>
+        
+  <h1>게시판 수정</h1>
+  <form name="writeForm" action="#" method="get">
+    <ul>
+      <li>
+        <label>제목</label>
+        <input type="text" name="title" value="HTML 게시판 생성">
+      </li>
+      <li>
+        <label>내용</label>
+        <textarea rows="10" cols="20" name="content" >HTML 게시판을 생성하고 있습니다.</textarea>
+      </li>
+      <li>
+        <label>파일첨부</label>
+        <input type="file" name="file">
+      </li>      
+      <li>
+        <button type="button">수정완료</button>
+        <button type="reset">다시쓰기</button>        
+        <a href="board_content.html"><button type="button">이전페이지</button></a>        
+        <a href="board_list.html"><button type="button">리스트</button></a>        
+      </li>
+    </ul>
+  </form>
+  
+  
+                        <!-- footer -->
+   <iframe src="http://localhost:9000/MyWeb/footer.html"
+        style="width:100%; height:250px; border:none;"></iframe>
+        
+</body>
+</html>

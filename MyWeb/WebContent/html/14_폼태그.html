@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>폼태그</title>
+</head>
+<body>
+   <h3>폼에서 입력한 데이터 서버 전송</h3>
+   <form name="form1" action="loginProc.jsp" method="get"> 
+   									<!-- get은 넘긴값이 보이고, post는 안보임 -->
+   		<lable>아이디</lable>
+  		<input type="text" id="id" class="id" name="id">		<!-- String 타입으로 넘어옴 -->
+   		<input type="submit" value="전송" >
+   		<button>서버전송</button>
+   		<button type="button">서버전송2</button>
+   </form>
+   
+</body>
+</html>
