@@ -10,7 +10,7 @@
     <header>
       <nav>
         <ul>
-          <li><a href="">로그인</a><div></div></li>
+          <li><a href="">로그인22222222</a><div></div></li>
           <li><a href="">회원가입</a><div></div></li>
           <li><a href="">MyCGV</a><div></div></li>
           <li><a href="">게시판</a><div></div></li>
