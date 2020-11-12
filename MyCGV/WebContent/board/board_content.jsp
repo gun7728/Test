@@ -7,7 +7,7 @@
 </head>
 <body>
   <!-- header -->
-  <jsp:include page="../../header.jsp" />
+  <jsp:include page="../header.jsp" />
   <!-- content -->
   <div class="content">
     <section class="section1">
@@ -42,6 +42,6 @@
     </section>
   </div>
   <!-- footer -->
-  <jsp:include page="../../footer.jsp" />
+  <jsp:include page="../footer.jsp" />
 </body>
 </html>

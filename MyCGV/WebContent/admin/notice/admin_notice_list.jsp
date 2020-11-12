@@ -10,13 +10,19 @@
   <jsp:include page="../../header.jsp" />
   <!-- content -->
   <div class="content">
+      <nav>
+      <ul>
+        <li><a href="http://localhost:9000/MyCGV/admin/member/admin_member_list.jsp">회원관리</a></li>
+        <li><a href="http://localhost:9000/MyCGV/admin/notice/admin_notice_list.jsp">공지관리</a></li>
+      </ul>
+    </nav>
     <section class="section1">
       <div>
-        <h1>게시판</h1>
+        <h1>공지사항</h1>
         <table border=1>
           <tr>
             <td colspan="4">
-              <a href="http://localhost:9000/MyCGV/board/board_write.jsp"><button type="button">글쓰기</button></a>
+              <a href="http://localhost:9000/MyCGV/admin/notice/admin_notice_write.jsp"><button type="button">글쓰기</button></a>
             </td>
           </tr>
           <tr>
@@ -27,61 +33,61 @@
           </tr>
           <tr>
             <td>1</td>
-            <td><a href="http://localhost:9000/MyCGV/board/board_content.jsp">도굴 개봉 이벤트</a></td>
+            <td><a href="http://localhost:9000/MyCGV/admin/notice/admin_notice_content.jsp">[CGV인재]임시 영업중단 안내</a></td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>2</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>3</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>4</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>5</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>6</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>7</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>8</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>9</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>
           <tr>
             <td>10</td>
-            <td>도굴 개봉 이벤트</td>
+            <td>[CGV인재]임시 영업중단 안내</td>
             <td>2020.11.11</td>
             <td>71</td>
           </tr>

@@ -10,9 +10,15 @@
   <jsp:include page="../../header.jsp" />
   <!-- content -->
   <div class="content">
+   <nav>
+      <ul>
+        <li><a href="http://localhost:9000/MyCGV/admin/member/admin_member_list.jsp">회원관리</a></li>
+        <li><a href="http://localhost:9000/MyCGV/admin/notice/admin_notice_list.jsp">공지관리</a></li>
+      </ul>
+    </nav>
     <section class="section1">
       <div>
-        <h1>게시판</h1>
+        <h1>공지사항</h1>
           <form name="boardWriteForm" action="#" method="get">
             <ul>
               <li>
@@ -30,7 +36,7 @@
               <li>
                 <button type="button">등록</button>
                 <button type="reset">취소</button>    
-                <a href="http://localhost:9000/MyCGV/board/board_list.jsp"><button type="button">목록으로</button></a>            
+                <a href="http://localhost:9000/MyCGV/admin/notice/admin_notice_list.jsp"><button type="button">목록으로</button></a>            
               </li>
             </ul>
           </form>

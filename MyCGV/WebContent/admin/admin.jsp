@@ -13,17 +13,19 @@
 <body>
   <!-- header -->
   <jsp:include page="../header.jsp" />
+  
   <!-- content -->
   <div class="content">
     <aside>
       <nav>
         <ul>
-          <li><a href="member/admin_member_list.jsp">회원관리</a></li>
-          <li><a href="notice/admin_notice_list.jsp">공지관리</a></li>
+          <li><a href="http://localhost:9000/MyCGV/admin/member/admin_member_list.jsp">회원관리</a></li>
+          <li><a href="http://localhost:9000/MyCGV/admin/notice/admin_notice_list.jsp">공지관리</a></li>
         </ul>
       </nav>
     </aside>  
   </div>
+  
   <!-- footer -->
   <jsp:include page="../footer.jsp" />
 </body>
