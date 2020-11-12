@@ -4,18 +4,25 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style>
+      div aside {width:150px; height:500px;
+                  background-color:tomato;
+      }
+</style>
 </head>
 <body>
   <!-- header -->
   <jsp:include page="../header.jsp" />
   <!-- content -->
   <div class="content">
-    <section class="section1">
-      <div>
-        <h1>게시판</h1>
-        <img src="http://localhost:9000/MyCGV/images/h3_movie_selection.gif">
-      </div>
-    </section>
+    <aside>
+      <nav>
+        <ul>
+          <li><a href="member/admin_member_list.jsp">회원관리</a></li>
+          <li><a href="notice/admin_notice_list.jsp">공지관리</a></li>
+        </ul>
+      </nav>
+    </aside>  
   </div>
   <!-- footer -->
   <jsp:include page="../footer.jsp" />

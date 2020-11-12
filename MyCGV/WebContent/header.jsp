@@ -11,13 +11,13 @@
       <nav>
         <ul>
           <li><a href="http://localhost:9000/MyCGV/login/login.jsp">로그인</a><div></div></li>
-          <li><a href="http://localhost:9000/MyCGV/login/join.jsp">회원가입</a><div></div></li>
-          <li><a href="http://localhost:9000/MyCGV/login/mypage.jsp">MyCGV</a><div></div></li>
-          <li><a href="http://localhost:9000/MyCGV/login/board_list.jsp">게시판</a><div></div></li>
-          <li><a href="http://localhost:9000/MyCGV/login/notice.jsp">공지사항</a><div></div></li>
+          <li><a href="http://localhost:9000/MyCGV/join/join.jsp">회원가입</a><div></div></li>
+          <li><a href="http://localhost:9000/MyCGV/mypage/mypage.jsp">MyCGV</a><div></div></li>
+          <li><a href="http://localhost:9000/MyCGV/board/board_list.jsp">게시판</a><div></div></li>
+          <li><a href="http://localhost:9000/MyCGV/notice/notice_list.jsp">공지사항</a><div></div></li>
           <li><a href="#">Club서비스</a><div></div></li>
           <li><a href="#">고객센터</a><div></div></li>
-          <li><a href="http://localhost:9000/MyCGV/login/admin.jsp">Admin</a><div></div></li>
+          <li><a href="http://localhost:9000/MyCGV/admin/admin.jsp">Admin</a><div></div></li>
         </ul>
       </nav>
       <a href="http://localhost:9000/MyCGV/index.jsp">
