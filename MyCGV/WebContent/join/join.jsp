@@ -13,7 +13,12 @@
     <section class="section1">
       <div>
         <h1>회원가입</h1>
-        <img src="http://localhost:9000/MyCGV/images/h3_movie_selection.gif">
+        <form name ="joinForm" action="#" method="get">
+          <ul>
+            <li><label>아 이 디</label> <input type="text" name="id"> <button>ID중복검사</button></li>
+            <li><label>암    호</label> <input type="text" name="pass"></li>
+          </ul>        
+        </form>
       </div>
     </section>
   </div>

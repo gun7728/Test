@@ -13,7 +13,14 @@
     <section class="section1">
       <div>
         <h1>로그인</h1>
-        <img src="http://localhost:9000/MyCGV/images/h3_movie_selection.gif">
+        <form name="loginForm" action="#" method="get">
+          <ul>
+            <li><label><img src="http://localhost:9000/MyCGV/images/icon_id.png" width="28" height="28"></label> <input type="text" name="id" placeholder="id"></li>
+            <li><label><img src="http://localhost:9000/MyCGV/images/icon_pass.png" width="30" height="30"></label> <input type="text" name="pass" placeholder="pass"></li>
+            <li><button type="button">로그인</button></li>
+            <li><a href="">비밀번호 찾기</a> <a href="http://localhost:9000/MyCGV/join/join.jsp">회원가입</a></li>
+          </ul>
+        </form>
       </div>
     </section>
   </div>
